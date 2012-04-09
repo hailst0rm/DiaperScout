@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F422F1B51533152C00E9FE05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B41533152C00E9FE05 /* UIKit.framework */; };
+		F422F1B71533152C00E9FE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B61533152C00E9FE05 /* Foundation.framework */; };
+		F422F1B91533152C00E9FE05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B81533152C00E9FE05 /* CoreGraphics.framework */; };
+		F422F1BF1533152C00E9FE05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F422F1BD1533152C00E9FE05 /* InfoPlist.strings */; };
+		F422F1C11533152C00E9FE05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1C01533152C00E9FE05 /* main.m */; };
+		F422F1C51533152C00E9FE05 /* DPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1C41533152C00E9FE05 /* DPSAppDelegate.m */; };
+		F422F1C81533152C00E9FE05 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F422F1C61533152C00E9FE05 /* MainStoryboard.storyboard */; };
+		F422F1CB1533152C00E9FE05 /* DPSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1CA1533152C00E9FE05 /* DPSFirstViewController.m */; };
+		F422F1CD1533152C00E9FE05 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F422F1CC1533152C00E9FE05 /* first.png */; };
+		F422F1CF1533152C00E9FE05 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F422F1CE1533152C00E9FE05 /* first@2x.png */; };
+		F422F1D21533152C00E9FE05 /* DPSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1D11533152C00E9FE05 /* DPSSecondViewController.m */; };
+		F422F1D41533152C00E9FE05 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F422F1D31533152C00E9FE05 /* second.png */; };
+		F422F1D61533152C00E9FE05 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F422F1D51533152C00E9FE05 /* second@2x.png */; };
+		F422F1DE1533152C00E9FE05 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1DD1533152C00E9FE05 /* SenTestingKit.framework */; };
+		F422F1DF1533152C00E9FE05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B41533152C00E9FE05 /* UIKit.framework */; };
+		F422F1E01533152C00E9FE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B61533152C00E9FE05 /* Foundation.framework */; };
+		F422F1E81533152C00E9FE05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F422F1E61533152C00E9FE05 /* InfoPlist.strings */; };
+		F422F1EB1533152C00E9FE05 /* Diaper_ScoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F422F1E11533152C00E9FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F422F1A71533152B00E9FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F422F1AF1533152B00E9FE05;
+			remoteInfo = "Diaper Scout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F422F1B01533152B00E9FE05 /* Diaper Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diaper Scout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F422F1B41533152C00E9FE05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F422F1B61533152C00E9FE05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F422F1B81533152C00E9FE05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F422F1BC1533152C00E9FE05 /* Diaper Scout-Info.plist */ = {isa = PBXFileReference; path = "Diaper Scout-Info.plist"; sourceTree = "<group>"; };
+		F422F1BE1533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F422F1C01533152C00E9FE05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F422F1C21533152C00E9FE05 /* Diaper Scout-Prefix.pch */ = {isa = PBXFileReference; path = "Diaper Scout-Prefix.pch"; sourceTree = "<group>"; };
+		F422F1C31533152C00E9FE05 /* DPSAppDelegate.h */ = {isa = PBXFileReference; path = DPSAppDelegate.h; sourceTree = "<group>"; };
+		F422F1C41533152C00E9FE05 /* DPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSAppDelegate.m; sourceTree = "<group>"; };
+		F422F1C71533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F422F1C91533152C00E9FE05 /* DPSFirstViewController.h */ = {isa = PBXFileReference; path = DPSFirstViewController.h; sourceTree = "<group>"; };
+		F422F1CA1533152C00E9FE05 /* DPSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSFirstViewController.m; sourceTree = "<group>"; };
+		F422F1CC1533152C00E9FE05 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F422F1CE1533152C00E9FE05 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F422F1D01533152C00E9FE05 /* DPSSecondViewController.h */ = {isa = PBXFileReference; path = DPSSecondViewController.h; sourceTree = "<group>"; };
+		F422F1D11533152C00E9FE05 /* DPSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSSecondViewController.m; sourceTree = "<group>"; };
+		F422F1D31533152C00E9FE05 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F422F1D51533152C00E9FE05 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F422F1DC1533152C00E9FE05 /* Diaper ScoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diaper ScoutTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F422F1DD1533152C00E9FE05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F422F1E51533152C00E9FE05 /* Diaper ScoutTests-Info.plist */ = {isa = PBXFileReference; path = "Diaper ScoutTests-Info.plist"; sourceTree = "<group>"; };
+		F422F1E71533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F422F1E91533152C00E9FE05 /* Diaper_ScoutTests.h */ = {isa = PBXFileReference; path = Diaper_ScoutTests.h; sourceTree = "<group>"; };
+		F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diaper_ScoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F422F1AD1533152B00E9FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422F1B51533152C00E9FE05 /* UIKit.framework in Frameworks */,
+				F422F1B71533152C00E9FE05 /* Foundation.framework in Frameworks */,
+				F422F1B91533152C00E9FE05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F422F1D81533152C00E9FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422F1DE1533152C00E9FE05 /* SenTestingKit.framework in Frameworks */,
+				F422F1DF1533152C00E9FE05 /* UIKit.framework in Frameworks */,
+				F422F1E01533152C00E9FE05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F422F1A51533152B00E9FE05 = {
+			isa = PBXGroup;
+			children = (
+				F422F1BA1533152C00E9FE05 /* Diaper Scout */,
+				F422F1E31533152C00E9FE05 /* Diaper ScoutTests */,
+				F422F1B31533152C00E9FE05 /* Frameworks */,
+				F422F1B11533152B00E9FE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F422F1B11533152B00E9FE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F422F1B01533152B00E9FE05 /* Diaper Scout.app */,
+				F422F1DC1533152C00E9FE05 /* Diaper ScoutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F422F1B31533152C00E9FE05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F422F1B41533152C00E9FE05 /* UIKit.framework */,
+				F422F1B61533152C00E9FE05 /* Foundation.framework */,
+				F422F1B81533152C00E9FE05 /* CoreGraphics.framework */,
+				F422F1DD1533152C00E9FE05 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F422F1BA1533152C00E9FE05 /* Diaper Scout */ = {
+			isa = PBXGroup;
+			children = (
+				F422F1C31533152C00E9FE05 /* DPSAppDelegate.h */,
+				F422F1C41533152C00E9FE05 /* DPSAppDelegate.m */,
+				F422F1C61533152C00E9FE05 /* MainStoryboard.storyboard */,
+				F422F1C91533152C00E9FE05 /* DPSFirstViewController.h */,
+				F422F1CA1533152C00E9FE05 /* DPSFirstViewController.m */,
+				F422F1CC1533152C00E9FE05 /* first.png */,
+				F422F1CE1533152C00E9FE05 /* first@2x.png */,
+				F422F1D01533152C00E9FE05 /* DPSSecondViewController.h */,
+				F422F1D11533152C00E9FE05 /* DPSSecondViewController.m */,
+				F422F1D31533152C00E9FE05 /* second.png */,
+				F422F1D51533152C00E9FE05 /* second@2x.png */,
+				F422F1BB1533152C00E9FE05 /* Supporting Files */,
+			);
+			path = "Diaper Scout";
+			sourceTree = "<group>";
+		};
+		F422F1BB1533152C00E9FE05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F422F1BC1533152C00E9FE05 /* Diaper Scout-Info.plist */,
+				F422F1BD1533152C00E9FE05 /* InfoPlist.strings */,
+				F422F1C01533152C00E9FE05 /* main.m */,
+				F422F1C21533152C00E9FE05 /* Diaper Scout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F422F1E31533152C00E9FE05 /* Diaper ScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				F422F1E91533152C00E9FE05 /* Diaper_ScoutTests.h */,
+				F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */,
+				F422F1E41533152C00E9FE05 /* Supporting Files */,
+			);
+			path = "Diaper ScoutTests";
+			sourceTree = "<group>";
+		};
+		F422F1E41533152C00E9FE05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F422F1E51533152C00E9FE05 /* Diaper ScoutTests-Info.plist */,
+				F422F1E61533152C00E9FE05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F422F1AF1533152B00E9FE05 /* Diaper Scout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F422F1EE1533152C00E9FE05 /* Build configuration list for PBXNativeTarget "Diaper Scout" */;
+			buildPhases = (
+				F422F1AC1533152B00E9FE05 /* Sources */,
+				F422F1AD1533152B00E9FE05 /* Frameworks */,
+				F422F1AE1533152B00E9FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diaper Scout";
+			productName = "Diaper Scout";
+			productReference = F422F1B01533152B00E9FE05 /* Diaper Scout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F422F1DB1533152C00E9FE05 /* Diaper ScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F422F1F11533152C00E9FE05 /* Build configuration list for PBXNativeTarget "Diaper ScoutTests" */;
+			buildPhases = (
+				F422F1D71533152C00E9FE05 /* Sources */,
+				F422F1D81533152C00E9FE05 /* Frameworks */,
+				F422F1D91533152C00E9FE05 /* Resources */,
+				F422F1DA1533152C00E9FE05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F422F1E21533152C00E9FE05 /* PBXTargetDependency */,
+			);
+			name = "Diaper ScoutTests";
+			productName = "Diaper ScoutTests";
+			productReference = F422F1DC1533152C00E9FE05 /* Diaper ScoutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F422F1A71533152B00E9FE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DPS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F422F1AA1533152B00E9FE05 /* Build configuration list for PBXProject "Diaper Scout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F422F1A51533152B00E9FE05;
+			productRefGroup = F422F1B11533152B00E9FE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F422F1AF1533152B00E9FE05 /* Diaper Scout */,
+				F422F1DB1533152C00E9FE05 /* Diaper ScoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F422F1AE1533152B00E9FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422F1BF1533152C00E9FE05 /* InfoPlist.strings in Resources */,
+				F422F1C81533152C00E9FE05 /* MainStoryboard.storyboard in Resources */,
+				F422F1CD1533152C00E9FE05 /* first.png in Resources */,
+				F422F1CF1533152C00E9FE05 /* first@2x.png in Resources */,
+				F422F1D41533152C00E9FE05 /* second.png in Resources */,
+				F422F1D61533152C00E9FE05 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F422F1D91533152C00E9FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422F1E81533152C00E9FE05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F422F1DA1533152C00E9FE05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F422F1AC1533152B00E9FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422F1C11533152C00E9FE05 /* main.m in Sources */,
+				F422F1C51533152C00E9FE05 /* DPSAppDelegate.m in Sources */,
+				F422F1CB1533152C00E9FE05 /* DPSFirstViewController.m in Sources */,
+				F422F1D21533152C00E9FE05 /* DPSSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F422F1D71533152C00E9FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F422F1EB1533152C00E9FE05 /* Diaper_ScoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F422F1E21533152C00E9FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F422F1AF1533152B00E9FE05 /* Diaper Scout */;
+			targetProxy = F422F1E11533152C00E9FE05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F422F1BD1533152C00E9FE05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422F1BE1533152C00E9FE05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F422F1C61533152C00E9FE05 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422F1C71533152C00E9FE05 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F422F1E61533152C00E9FE05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F422F1E71533152C00E9FE05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F422F1EC1533152C00E9FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F422F1ED1533152C00E9FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F422F1EF1533152C00E9FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diaper Scout/Diaper Scout-Prefix.pch";
+				INFOPLIST_FILE = "Diaper Scout/Diaper Scout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F422F1F01533152C00E9FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diaper Scout/Diaper Scout-Prefix.pch";
+				INFOPLIST_FILE = "Diaper Scout/Diaper Scout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F422F1F21533152C00E9FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diaper Scout.app/Diaper Scout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diaper Scout/Diaper Scout-Prefix.pch";
+				INFOPLIST_FILE = "Diaper ScoutTests/Diaper ScoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F422F1F31533152C00E9FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diaper Scout.app/Diaper Scout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diaper Scout/Diaper Scout-Prefix.pch";
+				INFOPLIST_FILE = "Diaper ScoutTests/Diaper ScoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F422F1AA1533152B00E9FE05 /* Build configuration list for PBXProject "Diaper Scout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F422F1EC1533152C00E9FE05 /* Debug */,
+				F422F1ED1533152C00E9FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F422F1EE1533152C00E9FE05 /* Build configuration list for PBXNativeTarget "Diaper Scout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F422F1EF1533152C00E9FE05 /* Debug */,
+				F422F1F01533152C00E9FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F422F1F11533152C00E9FE05 /* Build configuration list for PBXNativeTarget "Diaper ScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F422F1F21533152C00E9FE05 /* Debug */,
+				F422F1F31533152C00E9FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F422F1A71533152B00E9FE05 /* Project object */;
+}
