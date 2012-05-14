@@ -25,6 +25,8 @@
 		F422F1E01533152C00E9FE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B61533152C00E9FE05 /* Foundation.framework */; };
 		F422F1E81533152C00E9FE05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F422F1E61533152C00E9FE05 /* InfoPlist.strings */; };
 		F422F1EB1533152C00E9FE05 /* Diaper_ScoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */; };
+		F4317A3B153E0B170007D31D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4317A3A153E0B170007D31D /* CoreData.framework */; };
+		F4317A40153E161B0007D31D /* DPSModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4317A3E153E161B0007D31D /* DPSModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +44,29 @@
 		F422F1B41533152C00E9FE05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F422F1B61533152C00E9FE05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F422F1B81533152C00E9FE05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F422F1BC1533152C00E9FE05 /* Diaper Scout-Info.plist */ = {isa = PBXFileReference; path = "Diaper Scout-Info.plist"; sourceTree = "<group>"; };
+		F422F1BC1533152C00E9FE05 /* Diaper Scout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diaper Scout-Info.plist"; sourceTree = "<group>"; };
 		F422F1BE1533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F422F1C01533152C00E9FE05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F422F1C21533152C00E9FE05 /* Diaper Scout-Prefix.pch */ = {isa = PBXFileReference; path = "Diaper Scout-Prefix.pch"; sourceTree = "<group>"; };
-		F422F1C31533152C00E9FE05 /* DPSAppDelegate.h */ = {isa = PBXFileReference; path = DPSAppDelegate.h; sourceTree = "<group>"; };
+		F422F1C21533152C00E9FE05 /* Diaper Scout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diaper Scout-Prefix.pch"; sourceTree = "<group>"; };
+		F422F1C31533152C00E9FE05 /* DPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSAppDelegate.h; sourceTree = "<group>"; };
 		F422F1C41533152C00E9FE05 /* DPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSAppDelegate.m; sourceTree = "<group>"; };
 		F422F1C71533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F422F1C91533152C00E9FE05 /* DPSFirstViewController.h */ = {isa = PBXFileReference; path = DPSFirstViewController.h; sourceTree = "<group>"; };
+		F422F1C91533152C00E9FE05 /* DPSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSFirstViewController.h; sourceTree = "<group>"; };
 		F422F1CA1533152C00E9FE05 /* DPSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSFirstViewController.m; sourceTree = "<group>"; };
 		F422F1CC1533152C00E9FE05 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		F422F1CE1533152C00E9FE05 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		F422F1D01533152C00E9FE05 /* DPSSecondViewController.h */ = {isa = PBXFileReference; path = DPSSecondViewController.h; sourceTree = "<group>"; };
+		F422F1D01533152C00E9FE05 /* DPSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSSecondViewController.h; sourceTree = "<group>"; };
 		F422F1D11533152C00E9FE05 /* DPSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSSecondViewController.m; sourceTree = "<group>"; };
 		F422F1D31533152C00E9FE05 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		F422F1D51533152C00E9FE05 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F422F1DC1533152C00E9FE05 /* Diaper ScoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diaper ScoutTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F422F1DD1533152C00E9FE05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F422F1E51533152C00E9FE05 /* Diaper ScoutTests-Info.plist */ = {isa = PBXFileReference; path = "Diaper ScoutTests-Info.plist"; sourceTree = "<group>"; };
+		F422F1E51533152C00E9FE05 /* Diaper ScoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diaper ScoutTests-Info.plist"; sourceTree = "<group>"; };
 		F422F1E71533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F422F1E91533152C00E9FE05 /* Diaper_ScoutTests.h */ = {isa = PBXFileReference; path = Diaper_ScoutTests.h; sourceTree = "<group>"; };
+		F422F1E91533152C00E9FE05 /* Diaper_ScoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diaper_ScoutTests.h; sourceTree = "<group>"; };
 		F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diaper_ScoutTests.m; sourceTree = "<group>"; };
+		F4317A3A153E0B170007D31D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4317A3F153E161B0007D31D /* DPSModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DPSModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4317A3B153E0B170007D31D /* CoreData.framework in Frameworks */,
 				F422F1B51533152C00E9FE05 /* UIKit.framework in Frameworks */,
 				F422F1B71533152C00E9FE05 /* Foundation.framework in Frameworks */,
 				F422F1B91533152C00E9FE05 /* CoreGraphics.framework in Frameworks */,
@@ -111,6 +116,7 @@
 		F422F1B31533152C00E9FE05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4317A3A153E0B170007D31D /* CoreData.framework */,
 				F422F1B41533152C00E9FE05 /* UIKit.framework */,
 				F422F1B61533152C00E9FE05 /* Foundation.framework */,
 				F422F1B81533152C00E9FE05 /* CoreGraphics.framework */,
@@ -145,6 +151,7 @@
 				F422F1BD1533152C00E9FE05 /* InfoPlist.strings */,
 				F422F1C01533152C00E9FE05 /* main.m */,
 				F422F1C21533152C00E9FE05 /* Diaper Scout-Prefix.pch */,
+				F4317A3E153E161B0007D31D /* DPSModel.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -283,6 +290,7 @@
 				F422F1C51533152C00E9FE05 /* DPSAppDelegate.m in Sources */,
 				F422F1CB1533152C00E9FE05 /* DPSFirstViewController.m in Sources */,
 				F422F1D21533152C00E9FE05 /* DPSSecondViewController.m in Sources */,
+				F4317A40153E161B0007D31D /* DPSModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +460,7 @@
 				F422F1F01533152C00E9FE05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F422F1F11533152C00E9FE05 /* Build configuration list for PBXNativeTarget "Diaper ScoutTests" */ = {
 			isa = XCConfigurationList;
@@ -460,8 +469,22 @@
 				F422F1F31533152C00E9FE05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4317A3E153E161B0007D31D /* DPSModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4317A3F153E161B0007D31D /* DPSModel.xcdatamodel */,
+			);
+			currentVersion = F4317A3F153E161B0007D31D /* DPSModel.xcdatamodel */;
+			path = DPSModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F422F1A71533152B00E9FE05 /* Project object */;
 }
