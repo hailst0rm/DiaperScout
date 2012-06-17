@@ -25,6 +25,7 @@
 		F422F1E01533152C00E9FE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F422F1B61533152C00E9FE05 /* Foundation.framework */; };
 		F422F1E81533152C00E9FE05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F422F1E61533152C00E9FE05 /* InfoPlist.strings */; };
 		F422F1EB1533152C00E9FE05 /* Diaper_ScoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */; };
+		F4308B45158E52F7006700A1 /* DPSAddShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4308B44158E52F7006700A1 /* DPSAddShopViewController.m */; };
 		F4317A3B153E0B170007D31D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4317A3A153E0B170007D31D /* CoreData.framework */; };
 		F4317A40153E161B0007D31D /* DPSModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4317A3E153E161B0007D31D /* DPSModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,8 @@
 		F422F1E71533152C00E9FE05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F422F1E91533152C00E9FE05 /* Diaper_ScoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diaper_ScoutTests.h; sourceTree = "<group>"; };
 		F422F1EA1533152C00E9FE05 /* Diaper_ScoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Diaper_ScoutTests.m; sourceTree = "<group>"; };
+		F4308B43158E52F7006700A1 /* DPSAddShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSAddShopViewController.h; sourceTree = "<group>"; };
+		F4308B44158E52F7006700A1 /* DPSAddShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSAddShopViewController.m; sourceTree = "<group>"; };
 		F4317A3A153E0B170007D31D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F4317A3F153E161B0007D31D /* DPSModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DPSModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +134,8 @@
 				F422F1C31533152C00E9FE05 /* DPSAppDelegate.h */,
 				F422F1C41533152C00E9FE05 /* DPSAppDelegate.m */,
 				F422F1C61533152C00E9FE05 /* MainStoryboard.storyboard */,
+				F4308B43158E52F7006700A1 /* DPSAddShopViewController.h */,
+				F4308B44158E52F7006700A1 /* DPSAddShopViewController.m */,
 				F422F1C91533152C00E9FE05 /* DPSFirstViewController.h */,
 				F422F1CA1533152C00E9FE05 /* DPSFirstViewController.m */,
 				F422F1CC1533152C00E9FE05 /* first.png */,
@@ -291,6 +296,7 @@
 				F422F1CB1533152C00E9FE05 /* DPSFirstViewController.m in Sources */,
 				F422F1D21533152C00E9FE05 /* DPSSecondViewController.m in Sources */,
 				F4317A40153E161B0007D31D /* DPSModel.xcdatamodeld in Sources */,
+				F4308B45158E52F7006700A1 /* DPSAddShopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
