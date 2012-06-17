@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+
+#define METERS_PER_MILE 1609.344
 
 @interface DPSAddShopViewController : UIViewController
+@property (weak, nonatomic) IBOutlet MKMapView *_mapView;
 
 - (IBAction)cancel:(id)sender;
 

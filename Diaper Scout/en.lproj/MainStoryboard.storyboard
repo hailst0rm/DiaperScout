@@ -85,9 +85,16 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" id="BVN-M4-nOt">
+                                <rect key="frame" x="20" y="66" width="280" height="150"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="_mapView" destination="BVN-M4-nOt" id="1bT-E1-m4Z"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1074" y="498"/>
@@ -137,6 +144,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DPSAddShopViewController.h"/>
             <relationships>
                 <relationship kind="action" name="cancel:"/>
+                <relationship kind="outlet" name="_mapView" candidateClass="MKMapView"/>
             </relationships>
         </class>
         <class className="DPSFirstViewController" superclassName="UIViewController">

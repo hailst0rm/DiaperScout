@@ -13,6 +13,7 @@
 @end
 
 @implementation DPSAddShopViewController
+@synthesize _mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,6 +32,7 @@
 
 - (void)viewDidUnload
 {
+    [self set_mapView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -43,6 +45,17 @@
 - (IBAction)cancel:(id)sender
 {
     [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void)viewDidAppear:(BOOL)animated {  
+    // 1
+    CLLocationCoordinate2D location = [[[_mapView userLocation] location] coordinate];
+    // 2
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(location, 0.06*METERS_PER_MILE, 0.06*METERS_PER_MILE);
+    // 3
+    MKCoordinateRegion adjustedRegion = [_mapView regionThatFits:viewRegion];                
+    // 4
+    [_mapView setRegion:adjustedRegion animated:YES];      
 }
 
 @end
